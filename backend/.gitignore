@@ -1,2 +1,2 @@
 /uploads/*
-/src/database/*.sqlite
+*.sqlite
