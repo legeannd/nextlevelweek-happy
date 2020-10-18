@@ -3,7 +3,7 @@
 </p>
 
 # Happy
-![stacks](https://img.shields.io/badge/NodeJS-v12.18.4-brightgreen) ![stacks](https://img.shields.io/badge/ReactJS-v16.13.1-brightgreen)  ![stacks](https://img.shields.io/badge/Stack-Typescript-blue) ![GitHub](https://img.shields.io/github/license/legeannd/nextlevelweek-happy)
+![stacks](https://img.shields.io/badge/NodeJS-v12.18.4-brightgreen) ![stacks](https://img.shields.io/badge/ReactJS-v16.13.1-brightgreen) ![stacks](https://img.shields.io/badge/React%20Native-v0.63-brightgreen) ![stacks](https://img.shields.io/badge/Expo-v39.0.2-brightgreen) ![stacks](https://img.shields.io/badge/Stack-Typescript-blue) ![GitHub](https://img.shields.io/github/license/legeannd/nextlevelweek-happy)
 
 
 <p align="center">
@@ -48,6 +48,7 @@ The mobile app was made in React Native using expo, and has the same features as
 - [x] Leaflet
 - [x] Expo
 - [x] React Native
+- [x] React Native Maps
 
 ## How to execute the project <a id="installation"></a>
 To execute the project, you'll need to have Node and NPM or Yarn installed to setup all the dependencies.
@@ -137,6 +138,7 @@ O aplicativo mobile foi feito em React native usando expo, e tem as mesmas funci
 - [x] Leaflet
 - [x] Expo
 - [x] React Native
+- [x] React Native Maps
 
 ## Como executar o projeto <a id="instalacao"></a>
 Para executar o projeto, você irá precisar ter o Node e o NPM ou Yarn instalados para baixar as dependências.
