@@ -14,6 +14,10 @@
   <img width="600" src="uploads/web.gif"/>
 </p>
 
+<p align="center">
+  <img height="400" src="uploads/mobile.gif"/>
+</p>
+
 
 * [Content (en-US)](#section-en_us)
 * [Conteúdo (pt-BR)](#secao-pt_br)
@@ -31,6 +35,7 @@ The web application was made in React, and is responsible for sending the regist
   * [How to run the project](#installation)
     * [Installation - Back-end](#installation-back)
     * [Installation - Front-end](#installation-front)
+    * [Installation - Mobile](#installation-mobile)
 
 ## Techs <a id="techs"></a>
 
@@ -40,6 +45,8 @@ The web application was made in React, and is responsible for sending the regist
 - [x] React
 - [x] Axios
 - [x] Leaflet
+- [x] Expo
+- [x] React Native
 
 ## How to execute the project <a id="installation"></a>
 To execute the project, you'll need to have Node and NPM or Yarn installed to setup all the dependencies.
@@ -66,8 +73,8 @@ yarn dev
 
 ```bash
 cd web
-npm install
-npm start
+npm run install
+npm run start
 ```
 
 If you are using Yarn, use this:
@@ -78,6 +85,30 @@ yarn start
 ```
 
 After finishing installation, the web page will be open in your browser.
+
+### Installation - Mobile (App) <a id="installation-mobile"></a>
+
+Go to `api.ts` file inside `mobile/src/services`, and `backend/src/views/images_view.ts`, and change the IP to your machine's server IP.
+If you need to install *Expo*, execute the following command: `yarn global add expo-cli`.
+After, execute the project.
+
+
+```bash
+cd mobile
+npm run install
+npm run start
+```
+
+If you are using Yarn, use this:
+```bash
+cd mobile
+yarn install
+yarn start
+```
+
+When executing the project, *Expo's* debug page will open in your browser.
+
+To open the app in your mobile device, download *Expo's* app at Play Store or App Store and scan the QR code shown in the debug page, and wait until the installation finishes.
 
 ---
 
@@ -92,6 +123,7 @@ O aplicativo web foi feito em React, e é responsável por enviar as informaçõ
   * [Como executar o projeto](#instalacao)
     * [Instalação - Back-end](#instalacao-back)
     * [Instalação - Front-end](#instalacao-front)
+    * [Instalação - Mobile](#instalacao-mobile)
 
 ## Tecnologias <a id="tecnologias"></a>
 
@@ -101,6 +133,8 @@ O aplicativo web foi feito em React, e é responsável por enviar as informaçõ
 - [x] React
 - [x] Axios
 - [x] Leaflet
+- [x] Expo
+- [x] React Native
 
 ## Como executar o projeto <a id="instalacao"></a>
 Para executar o projeto, você irá precisar ter o Node e o NPM ou Yarn instalados para baixar as dependências.
@@ -127,8 +161,8 @@ yarn dev
 
 ```bash
 cd web
-npm install
-npm start
+npm run install
+npm run start
 ```
 
 Se estiver usando Yarn, utilize
@@ -139,6 +173,29 @@ yarn start
 ```
 
 Quando terminar, a página da aplicação web será aberta no navegador.
+
+### Instalação - Mobile (Aplicativo) <a id="instalacao-mobile"></a>
+
+Vá no arquivo `api.ts` dentro de `mobile/src/services`, e no arquivo `backend/src/views/images_view.ts`, e coloque o ip da máquina que está executando o seu servidor.
+Se precisar instalar o *Expo*, execute o comando `yarn global add expo-cli`.
+Em seguida, execute o projeto
+
+```bash
+cd mobile
+npm run install
+npm run start
+```
+
+Se estiver usando Yarn, utilize
+```bash
+cd mobile
+yarn install
+yarn start
+```
+
+Ao executar o projeto, a página de debug do *Expo* será aberta no seu navegador. 
+
+Para executar o aplicativo no seu dispositivo, baixe o aplicativo *Expo* na Play Store ou App Store e faça o scan do código QR que será disponibilizado na página de debug, e aguarde a instalação.
 
 ---
 ###### Developed on Next Level Week from [Rocketseat](https://rocketseat.com.br) by [Gean Lucas](https://www.linkedin.com/in/geanlucaas/) :rocket:.
