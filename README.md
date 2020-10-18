@@ -74,7 +74,7 @@ yarn dev
 
 ```bash
 cd web
-npm run install
+npm install
 npm run start
 ```
 
@@ -96,7 +96,7 @@ After, execute the project.
 
 ```bash
 cd mobile
-npm run install
+npm install
 npm run start
 ```
 
@@ -163,7 +163,7 @@ yarn dev
 
 ```bash
 cd web
-npm run install
+npm install
 npm run start
 ```
 
@@ -184,7 +184,7 @@ Em seguida, execute o projeto
 
 ```bash
 cd mobile
-npm run install
+npm install
 npm run start
 ```
 
