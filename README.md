@@ -29,6 +29,7 @@
 Happy is a platform idealized to bring info about orphanages nearby, so it can be easier to found them, facilitating the adoption process.
 The backend was created using Node.js and it's responsible for register a new orphanage, with images and infos of the place, and also return data from orphanages already registered.
 The web application was made in React, and is responsible for sending the registration data of a new orphanage, in addition to dynamically showing on a map all orphanages already registered.
+The mobile app was made in React Native using expo, and has the same features as the web app, in a different flux.
 
 ## Content
   * [Techs](#techs)
@@ -117,6 +118,7 @@ To open the app in your mobile device, download *Expo's* app at Play Store or Ap
 O happy é uma plataforma que tem como objetivo trazer informações sobre orfanatos da região, para que possam ser encontrados mais facilmente, facilitando assim o processo de adoção. 
 O servidor backend foi feito em Node.js e é responsável por fazer o cadastro de um novo orfanato, contendo imagens do lugar e suas informações, além de retornar dados sobre os orfanatos cadastrados. 
 O aplicativo web foi feito em React, e é responsável por enviar as informações de cadastro de um novo orfanato, além de mostrar dinamicamente num mapa todos os orfanatos já cadastrados.
+O aplicativo mobile foi feito em React native usando expo, e tem as mesmas funcionalidades do app web, em um fluxo diferente.
 
 ## Conteúdos 
   * [Tecnologias](#tecnlogias)
